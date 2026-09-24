@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller output (attach the .exe to a GitHub Release instead of committing it)
+build/
+dist/
+*.spec
+
+# Editors and Windows clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Never commit real diagnostic output from a PC
+*.snapshot.txt
+ticket-note*.txt
+screenshots/private/
